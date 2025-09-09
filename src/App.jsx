@@ -10,7 +10,7 @@ function App() {
   const lightTheme = () => setThemeMode("light");
   const darkTheme = () => setThemeMode("dark");
 
-  // apply theme to <html>
+  
   useEffect(() => {
     const html = document.querySelector("html");
     html.classList.remove("light", "dark");
