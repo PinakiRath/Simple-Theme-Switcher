@@ -1,12 +1,37 @@
-# React + Vite
+Simple Theme Switcher
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal React application demonstrating light/dark theme switching using React Context API, Tailwind CSS, and a toggle button. The app also includes a sample product card component styled with Tailwind.
 
-Currently, two official plugins are available:
+🔗 GitHub Repository: Simple-Theme-Switcher
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
 
-## Expanding the ESLint configuration
+-> 🌗 Toggle between light and dark mode.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-> ⚛️ Implemented with React Context API for global theme state management.
+
+-> 🎨 Styled with Tailwind CSS for responsive and clean UI.
+
+🛒 Example Card component to demonstrate dark/light styles.
+
+Getting Started
+1. Clone the repository
+    git clone https://github.com/PinakiRath/Simple-Theme-Switcher.git
+    cd Simple-Theme-Switcher
+
+2. Install dependencies
+    npm install
+
+3. Run the development server
+    npm run dev
+
+4. Build for production
+    npm run build
+
+Project Structure
+<pre> src ├── App.jsx # Main app with ThemeProvider ├── App.css # Global styles ├── components │ ├── Card.jsx # Product card UI │ └── ThemeBtn.jsx # Theme toggle button └── context └── theme.js # Context + custom hook for theme </pre>
+
+Tech Stack
+    .React
+    .Tailwind CSS
+    .Vite
