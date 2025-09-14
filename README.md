@@ -6,11 +6,11 @@ A minimal React application demonstrating light/dark theme switching using React
 
 Features
 
--> 🌗 Toggle between light and dark mode.
+🌗 Toggle between light and dark mode.
 
--> ⚛️ Implemented with React Context API for global theme state management.
+⚛️ Implemented with React Context API for global theme state management.
 
--> 🎨 Styled with Tailwind CSS for responsive and clean UI.
+🎨 Styled with Tailwind CSS for responsive and clean UI.
 
 🛒 Example Card component to demonstrate dark/light styles.
 
@@ -28,10 +28,19 @@ Getting Started
 4. Build for production
     npm run build
 
-Project Structure
-<pre> src ├── App.jsx # Main app with ThemeProvider ├── App.css # Global styles ├── components │ ├── Card.jsx # Product card UI │ └── ThemeBtn.jsx # Theme toggle button └── context └── theme.js # Context + custom hook for theme </pre>
+## Project Structure
+
+```plaintext
+src
+├── App.jsx          # Main app with ThemeProvider
+├── App.css          # Global styles
+├── components
+│   ├── Card.jsx     # Product card UI
+│   └── ThemeBtn.jsx # Theme toggle button
+└── context
+    └── theme.js     # Context + custom hook for theme
 
 Tech Stack
-    .React
-    .Tailwind CSS
-    .Vite
+    ->React
+    ->Tailwind CSS
+    ->Vite
